@@ -219,7 +219,7 @@ if __name__ == '__main__':
                 close_node = seedNode[findmax(seed_neibors_sim)] + 1
                 G.node[node+1]['tag'] = G.node[close_node]['tag']
     # 可视化展示
-    showGraph(G, title="Preliminary classification results")
+    showGraph(N_G, title="Preliminary classification results")
 
     # 初始化m_t_1
     m_t_1 = {}
